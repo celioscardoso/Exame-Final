@@ -1,0 +1,24 @@
+C:\Users\MARTINS\Desktop\ExameFinal-Célio\Senna\src\Historias\Historias\bin\Debug\netcoreapp3.1\Historias.deps.json
+C:\Users\MARTINS\Desktop\ExameFinal-Célio\Senna\src\Historias\Historias\bin\Debug\netcoreapp3.1\Historias.dll
+C:\Users\MARTINS\Desktop\ExameFinal-Célio\Senna\src\Historias\Historias\bin\Debug\netcoreapp3.1\Historias.pdb
+C:\Users\MARTINS\Desktop\ExameFinal-Célio\Senna\src\Historias\Historias\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\MARTINS\Desktop\ExameFinal-Célio\Senna\src\Historias\Historias\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\MARTINS\Desktop\ExameFinal-Célio\Senna\src\Historias\Historias\obj\Debug\netcoreapp3.1\Historias.csprojAssemblyReference.cache
+C:\Users\MARTINS\Desktop\ExameFinal-Célio\Senna\src\Historias\Historias\obj\Debug\netcoreapp3.1\Historias.AssemblyInfoInputs.cache
+C:\Users\MARTINS\Desktop\ExameFinal-Célio\Senna\src\Historias\Historias\obj\Debug\netcoreapp3.1\Historias.AssemblyInfo.cs
+C:\Users\MARTINS\Desktop\ExameFinal-Célio\Senna\src\Historias\Historias\obj\Debug\netcoreapp3.1\Historias.csproj.CoreCompileInputs.cache
+C:\Users\MARTINS\Desktop\ExameFinal-Célio\Senna\src\Historias\Historias\obj\Debug\netcoreapp3.1\Historias.csproj.CopyComplete
+C:\Users\MARTINS\Desktop\ExameFinal-Célio\Senna\src\Historias\Historias\obj\Debug\netcoreapp3.1\Historias.dll
+C:\Users\MARTINS\Desktop\ExameFinal-Célio\Senna\src\Historias\Historias\obj\Debug\netcoreapp3.1\Historias.pdb
+C:\Users\celio\Documents\Exame Final\Senna\src\Historias\Historias\bin\Debug\netcoreapp3.1\Historias.deps.json
+C:\Users\celio\Documents\Exame Final\Senna\src\Historias\Historias\bin\Debug\netcoreapp3.1\Historias.dll
+C:\Users\celio\Documents\Exame Final\Senna\src\Historias\Historias\bin\Debug\netcoreapp3.1\Historias.pdb
+C:\Users\celio\Documents\Exame Final\Senna\src\Historias\Historias\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\celio\Documents\Exame Final\Senna\src\Historias\Historias\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\celio\Documents\Exame Final\Senna\src\Historias\Historias\obj\Debug\netcoreapp3.1\Historias.csproj.AssemblyReference.cache
+C:\Users\celio\Documents\Exame Final\Senna\src\Historias\Historias\obj\Debug\netcoreapp3.1\Historias.AssemblyInfoInputs.cache
+C:\Users\celio\Documents\Exame Final\Senna\src\Historias\Historias\obj\Debug\netcoreapp3.1\Historias.AssemblyInfo.cs
+C:\Users\celio\Documents\Exame Final\Senna\src\Historias\Historias\obj\Debug\netcoreapp3.1\Historias.csproj.CoreCompileInputs.cache
+C:\Users\celio\Documents\Exame Final\Senna\src\Historias\Historias\obj\Debug\netcoreapp3.1\Historias.csproj.CopyComplete
+C:\Users\celio\Documents\Exame Final\Senna\src\Historias\Historias\obj\Debug\netcoreapp3.1\Historias.dll
+C:\Users\celio\Documents\Exame Final\Senna\src\Historias\Historias\obj\Debug\netcoreapp3.1\Historias.pdb

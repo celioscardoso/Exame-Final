@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Senna.Models.ImovelViewModel>
+
+@{
+    ViewData["Title"] = "PesquisaPorBairro";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Resultado da Pesquisa Por Bairro</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bairro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QtdDeQuartos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ValorDoAluguel)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bairro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QtdDeQuartos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValorDoAluguel)
+            </td>
+            <td>
+                @Html.ActionLink("Alterar", "Alterar", new { id = item.Id }) |
+                @Html.ActionLink("Detalhar", "Detalhar", new { id = item.Id }) |
+                @Html.ActionLink("Excluir", "Excluir", new { id = item.Id })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

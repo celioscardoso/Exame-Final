@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Senna.Models.ImovelViewModel>
+@{
+    ViewData["Title"] = "Home";
+}
+<h1 class="text-center">Página Inicial - Home</h1>
+<hr />
+<br />
+<div class="text-center">
+    <a class="btn btn-primary text-center" asp-action="Criar">Cadastrar Novo Imóvel</a>
+</div>
+
+<br />
+<div class="row">
+
+    <div class="col-md-6 col-sm-12">
+        <form asp-controller="Home" asp-action="PesquisaPorCidade">
+            <p>
+                <a>Busca por Cidade: </a><input type="text" name="PesquisarCidade" />
+                <input class="btn-primary" type="submit" value="Pesquisar" />
+            </p>
+        </form>
+    </div>
+
+
+    <div class="col-md-6 col-sm-12">
+        <form asp-controller="Home" asp-action="PesquisaPorBairro">
+            <p>
+                <a>Busca por Bairro: </a><input type="text" name="PesquisarBairro" />
+                <input class="btn-primary" type="submit" value="Pesquisar" />
+            </p>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+

@@ -1,0 +1,59 @@
+﻿@model Senna.Models.ImovelViewModel
+
+@{
+    ViewData["Title"] = "Alterar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Alterar Imovel</h3>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Alterar">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Cidade" class="control-label"></label>
+                <input asp-for="Cidade" class="form-control" />
+                <span asp-validation-for="Cidade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Bairro" class="control-label"></label>
+                <input asp-for="Bairro" class="form-control" />
+                <span asp-validation-for="Bairro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="QtdDeQuartos" class="control-label"></label>
+                <input asp-for="QtdDeQuartos" class="form-control" />
+                <span asp-validation-for="QtdDeQuartos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tipo" class="control-label"></label>
+                <input asp-for="Tipo" class="form-control" />
+                <span asp-validation-for="Tipo" class="text-danger"></span>
+                <hr />
+                <ul>
+                    <li>1 - Casa</li>
+                    <li>2 - Apartamento</li>
+                </ul>
+                <hr />
+            </div>
+            <div class="form-group">
+                <label asp-for="ValorDoAluguel" class="control-label"></label>
+                <input asp-for="ValorDoAluguel" class="form-control" />
+                <span asp-validation-for="ValorDoAluguel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Salvar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-dark" asp-action="Index">Voltar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
